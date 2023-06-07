@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300;1,700&family=Merriweather+Sans:wght@800&family=Poppins:wght@200;300&family=Sacramento&family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Chakra+Petch:ital,wght@1,300;1,700&family=Merriweather+Sans:wght@800&family=Poppins:wght@200;300&family=Sacramento&family=Solitreo&display=swap');
+body {
+    background-color: antiquewhite;
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav ul{
+    align-items: center;
+    display: flex;
+    background-color: black;
+    height: 65px;
+    list-style-type: none;
+    color: white;
+}
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img
+{
+    width: 58px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 63vh;
+    background-color: black;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('images/nf.png');
+    background-size: cover;
+}
+
+.songItemContainer{
+    margin-top: 40px;
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icon{
+    color: white;
+    margin-top: 12px;
+}
+.icon-play{
+    margin-left: 10px;
+    color: black;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 28px;
+    border-style: solid;
+}
+.songItem img{
+    width: 50px;
+    margin: 0 6px;
+    border-radius: 50%;
+    
+}
+.timestamp{
+    margin:0 10px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left:10vw;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.songInfo img{
+    margin: 10px 5px 0 0;
+}
+.songItem img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
